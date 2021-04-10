@@ -345,3 +345,111 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media screen and (max-width:460px){
+    .show{
+        display:flex!important;
+        justify-content: space-around;
+        flex-direction: column;
+        height: auto;
+    }
+    .nav-bar{
+        padding: 1rem 2rem!important;
+    }
+    .hamburger-box{
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        width: 50px!important;
+        padding: 2px 3px;
+        margin: auto 0;
+        right: 0;
+    }
+    .burger-1{
+        width: 40px;
+        height: 3px;
+        margin: 6px auto;
+        background-color: #c5c2c2;
+        display: block;
+        
+    }
+    ul.nav-links{
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 1rem;
+        height: 0;
+        transition:all 2s ease-in-out;
+        margin-top: 1.8rem;
+        min-height: 100vh;
+        background-color: rgba(40, 36, 46, 0.2);
+    }
+    ul li{
+        padding: 0.8rem 0.5rem;
+    }
+    ul li a:hover {
+        color: #becbd6;
+        background:none;
+        padding: 0.5rem;
+    }
+    .hero-section{
+        padding: 2rem!important;
+    }
+    div.hero-content-heading h3{
+        font-size: 1.8rem;
+    }
+    div.hero-background{
+        padding: 2rem 3rem;
+    }
+    div.background{
+        padding: 2px 5px;
+    }
+    div.background h4{
+        padding: 1rem;
+    }
+    div.background p{
+        padding-left: 1rem;
+    }
+    div.hero-background-pos{
+        width: 120px;
+        height: 120px;
+        left: 70%;
+    }
+    div.snapshot-team p{
+        font-size: 0.8rem;
+    }
+    div.snapshot-box{
+        padding: 1rem 1.5rem;
+    }
+    div.snapshot-box-content{
+        flex-direction: column;
+    }
+    div.box1, div.box3{
+        margin: 10px 0;
+        padding: 0;
+    }
+    div.gallery-section{
+        padding: 0.5rem;
+    }
+    div.gallery-img{
+        padding:1rem;
+    }
+    div.img{
+        margin: 10px 0;
+    }
+    div.footer{
+        padding:0.5rem;
+    }
+    div.footer-input, div.footer-textarea{
+        display: block;
+        padding: 0.5rem;
+    }
+    input[type="text"],input[type="email"], textarea{
+        margin: 10px 0;
+        width: 100%
+    }
+    
+    div.footer-btn{
+        padding: 00.5rem;
+    }
+}
